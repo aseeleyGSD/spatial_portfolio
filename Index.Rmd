@@ -1,7 +1,7 @@
 ---
-title: "Example Portfolio"
-author: "Carole Voulgaris"
-date: "10/12/2021"
+title: "Spatial Analysis Portfolio"
+author: "Alicia Seeley"
+date: "10/16/2021"
 output:
   html_document:
     theme: journal
@@ -16,78 +16,65 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-#Introduction
+# Introduction
 
-Portfolio created Fall 2021***
-
-Your portfolio should demonstrate each of the following skills (not all of which are demonstrated in this example):
-
-* Displaying multiple vector layers on the same map - New York Public Spaces 
-* Calculating and displaying relationships among point and polygon layers based on distance - Chicago schools dist to CBD
-* Aggregating point data to a layer of polygons - Chicago schools in comm areas
-* Calculating and displaying accessibility, based on travel time -Isochrones and TT Analysis
-* Converting between raster layers and vector layers - SLC?
-* Displaying raster data on a map - SLC accessibility
-* Georeferencing a raster image - East Boston
-* Displaying data on an interactive map - Monterey
-
-#Boston, Massachusetts
+# Boston, Massachusetts
 
 ## Georeferenced Historic Map of East Boston
 This map demonstrates the following skills: 
 
 * Georeferencing a raster image
 
-[![](thumbnails/Boston_interactive.png)](https://c-voulgaris.github.io/portfolio_examples/fullsize/inter_black.html){target="_blank"}
+[![](thumbnails/Historic_EB.png)](fullsize/Historic_EB.pdf){target="_blank"}
 
-#Chicago, Illinois
+# Chicago, Illinois
 
 ## Average Distance of Public Schools to Central Business District
 This map demonstrates the following skills:
 
 * Calculating and displaying relationships among point and polygon layers based on distance
 
-[![](thumbnails/clockboard.jpg)](https://c-voulgaris.github.io/portfolio_examples/fullsize/clockboard.pdf){target="_blank"}
+[![](thumbnails/Chic_av_dist.png)](fullsize/Chic_av_dist.pdf){target="_blank"}
 
 ## Community Areas by number of Public Schools
 This map demonstrates the following skills:
 
 * Aggregating point data to a layer of polygons
 
-[![](thumbnails/clockboard.jpg)](https://c-voulgaris.github.io/portfolio_examples/fullsize/clockboard.pdf){target="_blank"}
+[![](thumbnails/Chic_pt2poly.png)](fullsize/Chic_pt2poly.pdf){target="_blank"}
 
-#New York City, New York
+# New York City, New York
 
 ## Privately Owned Public Spaces
 This map demonstrates the following skills:
 
 * Displaying multiple vector layers on the same map
 
-[![](thumbnails/clockboard.jpg)](https://c-voulgaris.github.io/portfolio_examples/fullsize/clockboard.pdf){target="_blank"}
+[![](thumbnails/NY_pops.png)](fullsize/NY_pops.pdf){target="_blank"}
 
-#Salt Lake City, Utah
+# Salt Lake City, Utah
 
 ## Travel Time Analysis
 This map demonstrates the following skills:
 
 * Calculating and displaying accessibility, based on travel time
 
-[![](thumbnails/clockboard.jpg)](https://c-voulgaris.github.io/portfolio_examples/fullsize/clockboard.pdf){target="_blank"}
+[![](thumbnails/SLC_tt.png)](fullsize/SLC_tt.pdf){target="_blank"}
 
-## Accessibility
-This map shows accessibility based on a distance-decay function of the walking time to the nearest transit stop. It demonstrates the following skills:
+## Accessibility Raster
+This map demonstrates the following skills:
 
 * Calculating and displaying accessibility, based on travel time
 * Displaying raster data on a map
 * Converting between raster layers and vector layers
 
-[![](thumbnails/SLO_raster.png)](https://c-voulgaris.github.io/portfolio_examples/fullsize/SLO_transit.pdf){target="_blank"}
+[![](thumbnails/SLC_Accessibility.png)](fullsize/SLC_Accessibility.pdf){target="_blank"}
 
-#Monterey, California
+# Monterey, California
 
 ## Interactive Map - Education Level and Schools
 This interactive map demonstrates the following skills: 
 
 * Displaying data on an interactive map
 
-[![](thumbnails/Boston_interactive.png)](https://c-voulgaris.github.io/portfolio_examples/fullsize/inter_black.html){target="_blank"}
+[![](thumbnails/Monterey_edu.png)](fullsize/Monterey.html){target="_blank"}
